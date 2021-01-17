@@ -1,0 +1,39 @@
+// @import "https://fonts.googleapis.com/css?family=Great+Vibes";
+@import "../../../bower_components/materialize/sass/components/_color.scss";
+@import "../fonts/Lato-LightItalic.ttf";
+
+$font-size-base:          14px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+/*** Fonts ***/
+$roboto-font-path: "../fonts/" !default;
+$icons-font-path: "../fonts/" !default;
+$great-vibes: 'Great Vibes', cursive;
+$calibri: "../fonts/calibri.ttf";
+$lato-italic: "Lato-LightItalic";
+
+
+/***  Colors  ***/
+$lsm-primary-color: color('pink', 'lighten-1');
+// $primary-color: #f05d81;
+$button-color: color('indigo', 'accent-4') !default;
+// $body-background: #ececec;
+$body-background: #fff;
+$link-color: color("pink", "base") !default;
+
+// Hover
+$primaryColor: transparent !default;
+$activeColor: rgba(0, 0, 0, .6) !default;
+
+// Media Query Ranges
+// $small-screen-up: 801px !default;
+// $medium-screen-up: 993px !default;
+// $large-screen-up: 1201px !default;
+// $small-screen: 800px !default;
+// $medium-screen: 992px !default;
+// $large-screen: 1200px !default;
+
+

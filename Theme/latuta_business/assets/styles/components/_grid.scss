@@ -1,0 +1,22 @@
+  @media #{$small-and-down} {
+    // styles for small screens and down
+   
+  }
+  @media #{$medium-and-up} {
+    // styles for medium screens and larger
+    .lsm-header{
+    	// background-color: 
+    }
+  }
+  @media #{$medium-and-down} {
+    // styles for medium screens and down
+    h1.center-align.lsm-header-title.white-text{
+    	// background-color: red;
+    }
+  }
+  @media #{$large-and-up} {
+    // styles for large screens and up
+    .lsm-header{
+    	// background-color: 
+    }
+  }// Grid system

@@ -1,0 +1,33 @@
+nav{
+	#logo-container {
+    	margin-left: 2%;
+	}
+	.button-collapse{
+		margin-left: 1%;
+	}
+	li{
+		&:hover{
+			// @extend .hvr-rectangle-out;
+		}
+	}
+	a{
+		&:visited,
+		&:focus,
+		&:active,
+		&:hover{
+			transition: box-shadow .25s;
+			text-decoration: none !important;
+			color: #fff;
+		}
+	}
+	#nav-mobile{
+		a{
+			&:hover{
+				color: $lsm-primary-color;
+				@include transition(.2s ease-out);
+				// text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+			}
+		}
+	}
+
+}

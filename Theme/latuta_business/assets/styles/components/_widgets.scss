@@ -1,0 +1,24 @@
+.widget {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+    @extend .card-panel;
+    h2 {
+        border-bottom: 1px solid #ccc;
+        background-color: color('teal', 'lighten-5');
+        line-height: 50px;
+    }
+    ul {
+        // margin: 0px !important;
+        li{
+        	list-style-type: circle;
+        }
+    }
+    // padding: 0px;
+    a {
+        @extend .truncate;
+        padding: 2px;
+    }
+    form {
+        padding: 15px;
+    }
+}

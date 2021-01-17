@@ -1,0 +1,10 @@
+.sharedaddy.sd-sharing-enabled {
+    @extend .card-panel;
+    @extend .center;
+    margin: auto;
+    .sd-content {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
+    }
+}

@@ -1,0 +1,95 @@
+.lsm-title {
+    font-family: $great-vibes !important;
+    color: $lsm-primary-color;
+    @extend .display-1;
+    text-shadow: 1px 1px 1px rgba(3, 3, 3, .3);
+    //     // Extra small devices (portrait phones, less than 34em)
+    @media (max-width: 33.9em) {
+        font-size: 3rem !important;
+    }
+    // Small devices (landscape phones, less than 48em)
+    @media (max-width: 47.9em) {
+        font-size: 4rem;
+    }
+    // Medium devices (tablets, less than 62em)
+    @media (max-width: 61.9em) {
+        font-size: 5rem;
+    }
+}
+
+body {
+    background-color: $body-background;
+}
+
+.lsm-title {
+    padding-top: 50px !important;
+}
+
+.laco {
+    margin-bottom: 50px !important;
+}
+
+.laco {
+    border-top: 3px solid $lsm-primary-color;
+    height: 1px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 50%;
+}
+
+.laco::before {
+    background-color: $body-background;
+    background-image: url("../../dist/images/laco.png");
+    content: "";
+    height: 28px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    top: -14px;
+    width: 68px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* overflows */
+
+p {
+    overflow: hidden;
+}
+
+.hoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a.hoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    margin-bottom: 0px !important;
+}
+
+.valign-wrapper{
+    height: inherit !important;
+}

@@ -1,0 +1,11 @@
+#galerij {
+    div.col-xs-4 {
+        margin-top: 30px;
+        img {
+            @extend .z-depth-2;
+        }
+    }
+    .btn {
+        margin-top: 30px;
+    }
+}

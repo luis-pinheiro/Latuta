@@ -1,0 +1,59 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "materialize": "~0.96.1",
+    "OwlCarousel": "^1.3.2",
+    "hover": "^2.0.2",
+    "bootstrap-social": "^4.12.0",
+    "mdi": "^1.5.54"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "./modernizr.js"
+    },
+    "materialize": {
+      "main": [
+        "./sass/materialize.scss",
+        "./dist/js/materialize.js",
+        "./font/material-design-icons/Material-Design-Icons.eot",
+        "./font/material-design-icons/Material-Design-Icons.svg",
+        "./font/material-design-icons/Material-Design-Icons.ttf",
+        "./font/material-design-icons/Material-Design-Icons.woff",
+        "./font/material-design-icons/Material-Design-Icons.woff2",
+        "./font/roboto/Roboto-Bold.ttf",
+        "./font/roboto/Roboto-Bold.woff",
+        "./font/roboto/Roboto-Bold.woff2",
+        "./font/roboto/Roboto-Light.ttf",
+        "./font/roboto/Roboto-Light.woff",
+        "./font/roboto/Roboto-Light.woff2",
+        "./font/roboto/Roboto-Medium.ttf",
+        "./font/roboto/Roboto-Medium.woff",
+        "./font/roboto/Roboto-Medium.woff2",
+        "./font/roboto/Roboto-Regular.ttf",
+        "./font/roboto/Roboto-Regular.woff",
+        "./font/roboto/Roboto-Regular.woff2",
+        "./font/roboto/Roboto-Thin.ttf",
+        "./font/roboto/Roboto-Thin.woff",
+        "./font/roboto/Roboto-Thin.woff2"
+      ]
+    },
+    "OwlCarousel": {
+      "main": [
+        "./owl-carousel/AjaxLoader.gif",
+        "./owl-carousel/grabbing.png",
+        "./owl-carousel/owl.carousel.css",
+        "./owl-carousel/owl.carousel.js",
+        "./owl-carousel/owl.theme.css",
+        "./owl-carousel/owl.transitions.css"
+      ]
+    }
+  },
+  "devDependencies": {}
+}

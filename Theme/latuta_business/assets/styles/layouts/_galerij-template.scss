@@ -1,0 +1,21 @@
+#content-page-galerij {
+	
+    a:focus,
+    a:hover {
+        text-decoration: none !important;
+    }
+    .card {
+        a {
+            &:hover {
+                text-decoration: none !important;
+            }
+        }
+        p {
+            color: #333 !important;
+            text-decoration: none !important;
+            &:hover {
+                text-decoration: none !important;
+            }
+        }
+    }
+}

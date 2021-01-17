@@ -1,0 +1,22 @@
+aside.sidebar{
+	section{
+		@extend .card-panel;
+		overflow: hidden;
+		// padding: 0px;
+		h3{
+			margin: 0px;
+			border-bottom: 1px solid #ccc;
+			background-color: color('teal', 'lighten-4');
+			font-size: 20px;
+    		line-height: 40px;
+    		text-transform: uppercase;
+		}
+		a{
+			@extend .truncate;
+			padding: 2px;
+		}
+		form{
+			padding: 15px;
+		}
+	}
+}

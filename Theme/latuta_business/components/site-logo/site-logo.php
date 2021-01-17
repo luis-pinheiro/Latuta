@@ -1,0 +1,1 @@
+<?php components_business_the_site_logo(); ?>
